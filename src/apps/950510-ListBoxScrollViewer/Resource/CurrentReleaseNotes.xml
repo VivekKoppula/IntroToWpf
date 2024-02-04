@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- Template:
+    <release version="current" displayVersion="">
+        <paragraph 
+            en-US="" 
+            es-ES="ES - " 
+            fr-FR="FR - " />
+        <features>
+            <item  
+				en-US="" 
+				es-ES="ES - " 
+                fr-FR="FR - " />
+            <item 
+                en-US="" 
+                es-ES="ES - " 
+                fr-FR="FR - " />
+            <item 
+                en-US="" 
+                es-ES="ES - " 
+                fr-FR="FR - " />				
+        </features>
+        <enhancements>
+            <item  
+				en-US=""
+				es-ES="ES - " 
+				fr-FR="FR - " />
+			<item 
+                en-US="" 
+                es-ES="ES - " 
+                fr-FR="FR - " />
+            <item 
+                en-US="" 
+                es-ES="ES - " 
+                fr-FR="FR - " />
+        </enhancements>
+        <bugfixes>
+            <item  
+				en-US="" 
+				es-ES="ES - " 
+                fr-FR="FR - " />
+            <item 
+                en-US="" 
+                es-ES="ES - " 
+                fr-FR="FR - " />
+            <item 
+                en-US="" 
+                es-ES="ES - " 
+                fr-FR="FR - " />
+        </bugfixes>
+    </release>
+    -->
+	<release version="current" displayVersion="1.7">
+	</release>
+	<release version="1.6.23005.1" displayVersion="1.6.1">
+		<bugfixes>
+			<item en-US="Fixed a tip calibration issue" />
+		</bugfixes>
+	</release>
+	<release version="1.6.22346.1" displayVersion="1.6">
+		<paragraph
+			en-US="1.6 Initial Release"
+			es-ES=""
+			fr-FR="" />
+		<features>
+			<item
+				en-US="High Dynamic Range (HDR) - Part of optional POD package"
+				es-ES="ES - High Dynamic Range (HDR) - Part of optional POD package"
+                fr-FR="FR - High Dynamic Range (HDR) - Part of optional POD package" />
+			<item
+				en-US="Smart Naming"
+				es-ES="ES - Smart Naming"
+                fr-FR="FR - Smart Naming" />
+			<item
+				en-US="MDI Inspection Merge Tool"
+				es-ES="ES - MDI Inspection Merge Tool"
+                fr-FR="FR - MDI Inspection Merge Tool" />
+			<item
+				en-US="90-day feature trial"
+				es-ES="ES - 90-day feature trial"
+                fr-FR="FR - 90-day feature trial" />
+			<item
+				en-US="Probe touch articulation"
+				es-ES="ES - Probe touch articulation"
+                fr-FR="FR - Probe touch articulation" />
+			<item
+				en-US="InspectionWorks Connect Local + Control, new remote-control support"
+                es-ES="ES - InspectionWorks Connect Local + Control, new remote-control support"
+                fr-FR="FR - InspectionWorks Connect Local + Control, new remote-control support" />
+			<item
+				en-US="InspectionWorks Connect Android support"
+                es-ES="ES - InspectionWorks Connect Android support"
+                fr-FR="FR - InspectionWorks Connect Android support" />
+			<item
+				en-US="InspectionWorks Insight email notification support"
+                es-ES="ES - InspectionWorks Insight email notification support"
+                fr-FR="FR - InspectionWorks Insight email notification support" />
+			<item
+				en-US="Updated image recall to use the same screen scaling as Live and Freeze Frame"
+				es-ES="ES - Updated image recall to use the same screen scaling as Live and Freeze Frame"
+				fr-FR="FR - Updated image recall to use the same screen scaling as Live and Freeze Frame" />
+			<item
+				en-US="File Manager now supports 'list view' in addition to 'thumbnail view'"
+				es-ES="ES - File Manager now supports 'list view' in addition to 'thumbnail view'"
+				fr-FR="FR - File Manager now supports 'list view' in addition to 'thumbnail view'" />
+			<item
+				en-US="File Manager now supports renaming of files"
+				es-ES="ES - File Manager now supports renaming of files"
+				fr-FR="FR - File Manager now supports renaming of files" />
+			<item
+				en-US="Configurable system update settings - 'Auto Install'"
+				es-ES="ES - Configurable system update settings - 'Auto Install'"
+				fr-FR="FR - Configurable system update settings - 'Auto Install'" />
+			<item
+				en-US="Traditional Chinese/Bopomofo keyboard support"
+				es-ES="ES - Traditional Chinese/Bopomofo keyboard support"
+				fr-FR="FR - Traditional Chinese/Bopomofo keyboard support" />
+			<item
+				en-US="Support for probes with dual white light/UV tweak files"
+				es-ES="ES - Support for probes with dual white light/UV tweak files"
+				fr-FR="FR - Support for probes with dual white light/UV tweak files" />
+		</features>
+		<enhancements>
+			<item
+				en-US="MDI 'Quick Save' option"
+				es-ES="ES - MDI 'Quick Save' option"
+				fr-FR="FR - MDI 'Quick Save' option" />
+			<item
+				en-US="Second save button press from thge save options menu performs image save"
+				es-ES="ES - Second save button press from thge save options menu performs image save"
+				fr-FR="FR - Second save button press from thge save options menu performs image save" />
+			<item
+				en-US="Insertion of USB drive prompts user to change default image and video save location"
+				es-ES="ES - Insertion of USB drive prompts user to change default image and video save location"
+				fr-FR="FR - Insertion of USB drive prompts user to change default image and video save location" />
+			<item
+                en-US="Combined default image and video save locations"
+                es-ES="ES - Combined default image and video save locations"
+                fr-FR="FR - Combined default image and video save locations" />
+			<item
+				en-US="Max Target Distance (MTD) value now shown with first cursor for stereo measurements"
+				es-ES="ES - Max Target Distance (MTD) value now shown with first cursor for stereo measurements"
+				fr-FR="FR - Max Target Distance (MTD) value now shown with first cursor for stereo measurements" />
+			<item
+				en-US="Zoom toggle icon allows for switching between 0.8x (full image) and 1.0x (full screen) options"
+				es-ES="ES - Zoom toggle icon allows for switching between 0.8x (full image) and 1.0x (full screen) options"
+				fr-FR="FR - Zoom toggle icon allows for switching between 0.8x (full image) and 1.0x (full screen) options" />
+			<item
+				en-US="Auto-hiding image info panel for recalled images"
+				es-ES="ES - Auto-hiding image info panel for recalled images"
+				fr-FR="FR - Auto-hiding image info panel for recalled images" />
+			<item
+				en-US="InspectionWorks Insight session 'keep alive' functionality"
+				es-ES="ES - InspectionWorks Insight session 'keep alive' functionality"
+				fr-FR="FR - InspectionWorks Insight session 'keep alive' functionality" />
+			<item
+				en-US="Measurement cursors look similar to MViQ 3.5"
+				es-ES="ES - Measurement cursors look similar to MViQ 3.5"
+				fr-FR="FR - Measurement cursors look similar to MViQ 3.5" />
+			<item
+				en-US="Menu item and file manager item highlights improved"
+				es-ES="ES - Menu item and file manager item highlights improved"
+				fr-FR="FR - Menu item and file manager item highlights improved" />
+			<item
+				en-US="Certain status messages can now be dismissed by the user"
+				es-ES="ES - Certain status messages can now be dismissed by the user"
+				fr-FR="FR - Certain status messages can now be dismissed by the user" />
+			<item
+				en-US="'Show Text' option for password entry keyboards"
+				es-ES="ES - 'Show Text' option for password entry keyboards"
+				fr-FR="FR - 'Show Text' option for password entry keyboards" />
+			<item
+				en-US="System Update now provides reboot option"
+				es-ES="ES - System Update now provides reboot option"
+				fr-FR="FR - System Update now provides reboot option" />
+			<item
+				en-US="Translation improvements"
+				es-ES="ES - Translation improvements"
+				fr-FR="FR - Translation improvements" />
+			<item
+				en-US="Combined default image and video save locations"
+				es-ES="ES - Combined default image and video save locations"
+				fr-FR="FR - Combined default image and video save locations" />
+		</enhancements>
+	</release>
+	<release version="1.5.22112.2" displayVersion="1.5.2">
+		<paragraph
+			en-US="1.5 wifi fix"
+			es-ES="ES - 1.5 wifi fix"
+			fr-FR="FR - 1.5 wifi fix" />
+		<enhancements>
+			<item
+				en-US="Several translation improvements"
+				es-ES="ES - Several translation improvements"
+				fr-FR="FR - Several translation improvements" />
+			<item
+				en-US="MDI reporting improvement making it easier to edit Word document reports"
+				es-ES="ES - MDI reporting improvement making it easier to edit Word document reports"
+				fr-FR="FR - MDI reporting improvement making it easier to edit Word document reports" />
+		</enhancements>
+		<bugfixes>
+			<item
+				en-US="Wi-Fi connectivity impacting InspectionWorks Connect Local and over-the-air updates"
+				es-ES="ES - Wi-Fi connectivity impacting InspectionWorks Connect Local and over-the-air updates"
+				fr-FR="FR - Wi-Fi connectivity impacting InspectionWorks Connect Local and over-the-air updates" />
+			<item
+				en-US="Chinese/Japanese annotation fixed"
+				es-ES="ES - Chinese/Japanese annotation fixed"
+				fr-FR="FR - Chinese/Japanese annotation fixed" />
+			<item
+				en-US="Updated tip selection menu to remove duplicate 6.1mm 50° white/green tips"
+				es-ES="ES - Updated tip selection menu to remove duplicate 6.1mm 50° white/green tips"
+				fr-FR="FR - Updated tip selection menu to remove duplicate 6.1mm 50° white/green tips" />
+			<item
+				en-US="Removed green 3DPM tip from tip selection menu"
+				es-ES="ES - Removed green 3DPM tip from tip selection menu"
+				fr-FR="FR - Removed green 3DPM tip from tip selection menu" />
+		</bugfixes>
+	</release>
+	<release version="1.5.22049.1" displayVersion="1.5.1">
+		<enhancements>
+			<item
+				en-US="InspectionWorks Insight now supports accounts with multitenancy"
+				es-ES="ES - InspectionWorks Insight now supports accounts with multitenancy"
+				fr-FR="FR - InspectionWorks Insight now supports accounts with multitenancy" />
+			<item en-US="Improved video streaming reliability on InspectionWorks Connect Local" />
+			<item en-US="Improvement in 'Share to iPhone' soft key in File Manager" />
+		</enhancements>
+		<bugfixes>
+			<item en-US="MDI Report provides correct image order when leaf nodes are at different levels of the tree" />
+			<item en-US="Virtual keyboard shift key improvement" />
+			<item en-US="USB keyboard is no longer Shifted until user selects Shift key on virtual keyboard" />
+		</bugfixes>
+	</release>
+	<release version="1.5.22032.1" displayVersion="1.5">
+		<features>
+			<item en-US="InspectionWorks Insight capable – wireless upload to cloud application" />
+			<item en-US="Noise Reduction image processing tool as part of POD package (Part number: MFL-POD)" />
+			<item en-US="Built-in hotspot" />
+			<item en-US="Maximum Target Distance (MTD) with stereo measurement (Part number: MFL-ST)" />
+			<item en-US="Dynamic Advisory System with stereo measurement (Part number: MFL-ST)" />
+			<item en-US="Captive portal access" />
+			<item en-US="USB keyboard support" />
+			<item en-US="Ethernet connectivity via USB adapter" />
+			<item en-US="New progress bar during boot-up" />
+		</features>
+		<bugfixes>
+			<item en-US="Faster boot-up time: ~1:30" />
+			<item en-US="Removed green flash on-screen during startup" />
+			<item en-US="Font size increased in text annotation, measurement value &amp; icon size, and Settings menu" />
+			<item en-US="Logo and Date &amp; Time are now user-selectable options for 'burning in' to saved images" />
+			<item en-US="MDI 'Breadcrumbs' are now active for navigation" />
+			<item en-US="On-device video playback tearing" />
+			<item en-US="Faster image Save operation" />
+			<item en-US="Wi-Fi connectivity improvements" />
+			<item en-US="Re-saving MDI images outside the MDI no longer loses the burned-in 'breadcrumb'" />
+			<item en-US="Custom measurement result positions are now maintained on save instead of being reset to the default location" />
+			<item en-US="Navigating to next/previous recalled images now updates the highlighted item when returning to File Manager" />
+			<item en-US="Navigating ‘up’ the MDI inspection tree now correctly highlights the node you just came" />
+			<item en-US="MDI reports now convert area measurements to inches correctly" />
+		</bugfixes>
+	</release>
+	<release version="1.1.21259.1" displayVersion="1.1">
+		<features>
+			<item en-US="Screenshots can now be captured via double-click of the Save button (hard key and touch control)" />
+			<item en-US="Support for NTFS formatted USB drives" />
+			<item en-US="Support for internal memory disable (Part number: MFL-NOIM)" />
+			<item en-US="MDI report generation and preview now -50 seconds faster" />
+			<item en-US="Improved joystick control of measurement cursors and annotations" />
+			<item en-US="Much faster thumbnail generation for images saved with this release of software" />
+			<item en-US="Updated stereo measurement zoom window 'cross-hairs' to show the match strength color of the current cursor" />
+			<item en-US="Build release date now part of the software version number displayed in Settings | About" />
+		</features>
+		<bugfixes>
+			<item en-US="Fixed an issue causing a green line up on right side of live video when zooming out" />
+			<item en-US="Fixed bug where steering cables were not relaxing on shutdown from steer &amp; stay mode" />
+			<item en-US="Revised truncation of filenames to put the ellipses (.„) in the middle, for easier identification of similar files" />
+			<item en-US="Fixed bug where PDF Viewer (including for MDI Report Preview) was not always opening to first page of the document" />
+			<item en-US="Fixed bug where user was unable to navigate the levels of the MDI node list by selecting the 'breadcrumbs' at the top" />
+			<item en-US="Updated which screens will display the Record touch icon" />
+			<item en-US="Fixed bug where tip selection lists did not highlight currently selected tip when opened" />
+			<item en-US="Fixed bug where stereo index was not being displayed correctly in all Recall states" />
+			<item en-US="Fixed bug where empty folders were not being copied in File Manager" />
+			<item en-US="Fixed bug where a USB drive with an update file on it could not be ejected" />
+			<item en-US="Fixed bug where various Settings list controls did not highlight the current selection when opened" />
+			<item en-US="Fixed bugs regarding enabling/disabling the Undo button while in measurement mode" />
+			<item en-US="Fixed bug where the Enter key would only highlight, but not select, a language in the language selection list" />
+			<item en-US="Fixed bug where iOS Device names weren't being truncated correctly when necessary" />
+			<item en-US="MDI node list now remembers the leaf node you were on upon returning to the list" />
+			<item en-US="Virtual keyboard keys are now properly highlighted when they have joystick focus" />
+			<item en-US="Fixed multiple bugs regarding joystick operations on inverted images" />
+			<item en-US="Changed MDI Report 'Include PDF' Setting to default to On" />
+			<item en-US="Fixed bug where measurement results were not updated if Distortion Correction image transform was turned off" />
+			<item en-US="Fixed bug where measurement results were not being correctly updated if the currently selected tip was changed" />
+		</bugfixes>
+	</release>
+	<release version="1.0.21186.1" displayVersion="1.0">
+		<paragraph en-US="Initial Mentor Flex release." />
+	</release>
+</dataroot>

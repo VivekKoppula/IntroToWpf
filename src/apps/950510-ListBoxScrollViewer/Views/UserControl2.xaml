@@ -1,0 +1,117 @@
+﻿<UserControl x:Class="ListBoxScrollViewer.Views.UserControl2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ListBoxScrollViewer.Views"
+             xmlns:localVms="clr-namespace:ListBoxScrollViewer.ViewModels"
+             mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance Type=localVms:UserControl2ViewModel}"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        
+
+        <!-- This ControlTemplate defines the inner content of the scrollviewer
+            that is shown inside the listbox below.
+        -->
+        <ControlTemplate TargetType="{x:Type ScrollViewer}" x:Key="ScrollViewTemplate">
+            <Border BorderBrush="{TemplateBinding BorderBrush}"
+	            BorderThickness="{TemplateBinding BorderThickness}"
+	            HorizontalAlignment="{TemplateBinding HorizontalAlignment}"
+	            VerticalAlignment="{TemplateBinding VerticalAlignment}">
+                <Grid Background="{TemplateBinding Background}"
+	                HorizontalAlignment="{TemplateBinding HorizontalAlignment}"
+	                VerticalAlignment="{TemplateBinding VerticalAlignment}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Display listbox content here -->
+                    <ScrollContentPresenter Grid.Column="0" Grid.ColumnSpan="2"
+                                        Grid.Row="0" Grid.RowSpan="2"
+                    KeyboardNavigation.DirectionalNavigation="Local"
+                    CanContentScroll="True"
+                    CanHorizontallyScroll="True"
+                    CanVerticallyScroll="True"
+                />
+
+                    <!-- Display Vertical Scrollbar to the right -->
+                    <ScrollBar Name="PART_VerticalScrollBar"
+	                        Grid.Column="1" Grid.Row="0"
+                            Padding="0,0,0,3"
+	                        Value="{TemplateBinding VerticalOffset}"
+	                        Maximum="{TemplateBinding ScrollableHeight}"
+	                        ViewportSize="{TemplateBinding ViewportHeight}"
+	                        Visibility="{TemplateBinding ComputedVerticalScrollBarVisibility}"/>
+
+                    <ScrollBar Name="PART_HorizontalScrollBar"
+                            Grid.Column="0" Grid.Row="1"
+                            Orientation="Horizontal"
+                            Padding="0,0,6,0"
+                            Value="{TemplateBinding HorizontalOffset}"
+                            Maximum="{TemplateBinding ScrollableWidth}"
+                            ViewportSize="{TemplateBinding ViewportWidth}"
+                            Visibility="{TemplateBinding ComputedHorizontalScrollBarVisibility}"/>
+
+                    <DockPanel Grid.Column="1" Grid.Row="1"
+                            LastChildFill="false"
+                            Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+
+                    <ResizeGrip HorizontalAlignment="Right" VerticalAlignment="Stretch"
+                            Grid.Column="1" Grid.Row="1"
+                            Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"
+                            />
+                </Grid>
+            </Border>
+        </ControlTemplate>
+
+        <!--
+        This Template defines the inner content of the way the ListBox is dispayed
+        Change for example the Background color of the border to black to see where this is at.
+        
+        Checkout the ScrollViewTemplate which defines a custom scrollviewer with scrollbars
+        and a custom resize grip in the lower right corner.
+        -->
+        <ControlTemplate x:Key="defaulttemplate" TargetType="{x:Type ListBox}">
+            <Border BorderBrush="{TemplateBinding BorderBrush}"
+                BorderThickness="{TemplateBinding BorderThickness}"
+                Background="{TemplateBinding Background}"
+                Padding="1"
+                SnapsToDevicePixels="True">
+                <ScrollViewer Focusable="False"
+                            Padding="{TemplateBinding Padding}"
+                            Template="{StaticResource ScrollViewTemplate}"
+                            >
+                    <ItemsPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                </ScrollViewer>
+            </Border>
+        </ControlTemplate>
+
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label 
+                Name="View2" 
+                VerticalAlignment="Top" HorizontalAlignment="Center"
+                Content="View 2" 
+                Height="40" 
+                Canvas.Left="10" Canvas.Top="10" 
+                FontSize="14" FontFamily="Georgia" 
+                FontWeight="Bold"/>
+
+        <ListBox Grid.Row="1" Template="{StaticResource defaulttemplate}"
+             ItemsSource="{Binding MyStrings}"
+     />
+    </Grid>
+</UserControl>

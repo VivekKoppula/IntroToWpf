@@ -1,0 +1,10 @@
+﻿<Application x:Class="BasicMvvmHWinTaskRun.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BasicMvvmHWinTaskRun"
+             xmlns:localVs="clr-namespace:BasicMvvmHWinTaskRun.Views"             
+             xmlns:localVms="clr-namespace:BasicMvvmHWinTaskRun.ViewModels">
+    <Application.Resources>
+
+    </Application.Resources>
+</Application>
